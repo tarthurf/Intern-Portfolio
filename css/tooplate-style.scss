@@ -9,7 +9,12 @@ http://www.tooplate.com/view/2096-individual
 $codeFont: 'Source Code Pro', monospace;
 $backgroundBlack: #0a0a0a;
 
-
+.star-rating {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
 
 /* Font Colors */
 
@@ -175,7 +180,7 @@ h2 {
 }
 
 h3 {
-	color: green;
+	color: darkslategrey;
 	padding-bottom: 10px;
 }
 
@@ -201,7 +206,7 @@ h5 {
 }
 
 .tm-page-5-content {
-	float: right;	
+	float: left;	
 }
 
 .container {
@@ -219,6 +224,10 @@ h5 {
 
 .tm-btn-right {
 	float:right;
+}
+
+.tm-btn-bottom {
+	float: inline-end;
 }
 
 .tm-address-box {

@@ -222,7 +222,8 @@ h5 {
 }
 
 .tm-page-5-content {
-  float: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .container {
